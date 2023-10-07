@@ -4,9 +4,7 @@
              x:Class="semana05.EditorDemo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Editor Text="I am an Editor" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

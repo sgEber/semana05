@@ -4,9 +4,9 @@
              x:Class="semana05.DatepickerDemo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <DatePicker x:Name="dtpTest2" MinimumDate="01/01/2023"
+                        MaximumDate="12/31/2023"
+                        Date="10/07/2023" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
