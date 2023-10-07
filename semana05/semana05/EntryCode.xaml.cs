@@ -15,6 +15,11 @@ namespace semana05
         public EntryCode()
         {
             InitializeComponent();
+
+            StackLayout stack = new StackLayout();
+            var entry = new Entry { Text = "This a readly-only Entry" };
+            stack.Children.Add(entry);
+            Content = stack;
         }
     }
 }

@@ -4,9 +4,7 @@
              x:Class="semana05.EntryDemo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry Text="This is a read-only Entry"></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
