@@ -4,7 +4,7 @@
              x:Class="semana05.LocalImage">
     <ContentPage.Content>
         <StackLayout>
-            <Image Source="Pochita1.jpg" />
+            <Image Source="charmander.jpg" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
