@@ -4,9 +4,7 @@
              x:Class="semana05.LocalImage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source="Pochita1.jpg" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
